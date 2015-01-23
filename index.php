@@ -31,7 +31,7 @@ and open the template in the editor.
             <div id="sidebarLeft">
                 <div class="box">
                 <div class="topbox">
-                    <img class="profileImage" src="images/profile/75/marcus.jpg" width="40" height="40">
+                    <img class="profileThumb40" src="images/profile/75/marcus.jpg" width="40" height="40">
                     <p>Settings</p>
                 </div>
                 <div class="widget"></div>
@@ -63,6 +63,11 @@ and open the template in the editor.
                 </div>
                 <div id="postfield">
                     <div class="post">
+                        <div class="postHeader">
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                            <p class="underInfo">22 mins ago</p>
+                        </div>
                     </div>
                     <div class="post">
                     </div>
