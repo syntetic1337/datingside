@@ -26,11 +26,17 @@ html {
             text-decoration: none;
         } a:hover {
             color:#db5565;
-
+} h2 { 
+    font-size:1.15em;
+    font-weight: normal;
+    color:#db5565;
+    margin:5px 0 5px 0px;
 } .left {
     float:left;
 } .right {
-    float:right;    
+    float:right;
+} .round { 
+    border-radius:40px;   
 } /* --- [END OF] Regular default stuff --- */ 
 
     header { /* --- HEADER SECTION ---- Navigation menu, Search field, User session name ---- */
@@ -177,11 +183,11 @@ html {
             height:30px;
             border-radius: 3px;
             font-size: 0.8em;
-            background: #51bf87;
+            background: #db5565;
             color:white;
             margin-right:10px;
             clear:both;
-            border-bottom:1px solid #41996c;
+            border-bottom:1px solid #af4451;
         } #poststatus form label {
             float:left;
             font-size: 1.1em;
@@ -190,16 +196,17 @@ html {
             -webkit-appearance:none;
             float:left;
             margin:10px 0 0 10px;
-            width:100px;
+            width:150px;
             text-align: center;
             height:30px;
             border-radius: 3px;
             font-size: 0.8em;
             padding:5px;
             outline:none;
-            background: #51bf87;
+            background: #db5565;
             color:white;
-            border-bottom:1px solid #41996c;
+            border-top:1px solid #af4451;
+            border-left:1px solid #af4451;
         } #poststatus form input[type=submit]:hover {
             background: #66c796;
             border-bottom: 1px solid #529f78;
@@ -209,7 +216,7 @@ html {
     height:auto;
     min-height: 300px !important;
     float:left;
-    } .box {
+    } .boxLeft, .boxRight {
         width:150px;
         height:auto;
         min-height: 500px;
@@ -217,23 +224,34 @@ html {
         border: 1px solid #f1ebde;
         position:fixed;
         background-color:#FFF;
+    } .boxRight {
+        width:230px;
     } #sidebarLeft .topbox {
         width:130px;
         margin:5px;
         padding:5px;
         height:auto;
         min-height: 30px;
-        background: #51bf87;
+        background: #db5565;
         float:left;
         border-radius: 5px;
-        border-bottom:2px solid #41996c;
-        } #sidebarLeft .widget {
-            width:150px;
+        border-bottom:2px solid #af4451;
+        } .widgetLeft, .widgetRight {
+            width:130px;
+            padding:10px;
             height:auto;
             min-height: 200px;
             float:left;
-            border-radius: 5px;
             margin-top:10px;
+        } .widgetRight {
+            width:210px;
+            } .widgetLeft .header, .widgetRight .header { 
+                background:#FFF;
+                width:100%;
+                height:auto;
+                min-height: 20px;
+                border-bottom:2px solid #db5565;
+                margin-bottom:20px;               
         } #sidebarLeft .topbox p {
             font-size: 1.1em;
             float:left;
@@ -245,19 +263,16 @@ html {
 } /* --- [END OF] LEFT SIDEBAR SECTION --- */
 #sidebarRight { /* --- RIGHT SIDEBAR SECTION --- */
     width:230px;
-    border: 1px solid #f1ebde;
-    background:#FFF;
     height:auto;
     min-height: 500px;
     float:left;
-    border-radius:5px;
     } .topfix {
         width:100%;
         height:200px;
 } /* --- [END OF] RIGHT SIDEBAR SECTION --- */
 
 img.profileThumb40 { /* --- ASSETS --- */
-            border-radius: 3px;
+            
             margin-right:5px;
             width:40px;
             height:40px;

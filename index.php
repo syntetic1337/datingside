@@ -29,12 +29,12 @@ and open the template in the editor.
         </header>
         <div id="wrapper">
             <div id="sidebarLeft">
-                <div class="box">
+                <div class="boxLeft">
                 <div class="topbox">
                     <img class="profileThumb40" src="images/profile/75/marcus.jpg" width="40" height="40">
                     <p>Settings</p>
                 </div>
-                <div class="widget"></div>
+                <div class="widgetLeft"></div>
             </div>
             </div>
 
@@ -76,6 +76,16 @@ and open the template in the editor.
                 </div>
             </div>
             <div id="sidebarRight">
+                <div class="boxRight">
+                <div class="widgetRight">
+                    <div class="header">
+                        <h2>People you might like</h2>
+                    </div>
+                    <img class="profileThumb40 left round" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                            <p class="underInfo">22 mins ago</p>
+                </div>
+                </div>
                 
             </div>
             
