@@ -1,0 +1,242 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 04-01-2015, 05:12:14
+    Author     : marcus
+*/
+
+html { 
+  background: #fbf8f1; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+* { /* --- Regular default stuff --- */
+    border:0;
+    margin:0;
+    padding:0;  
+    } body {  
+        width:100%; height:100%;
+} /* --- [END OF] Regular default stuff --- */ 
+
+    header { /* --- HEADER SECTION ---- Navigation menu, Search field, User session name ---- */
+        background: #db5565;
+        height:50px;
+        width:100%;
+        color:#FFF;
+        position:fixed;
+        font-family: "Helvetica Neue";
+        overflow:hidden; 
+        z-index:1; 
+        border-bottom:3px solid #af4451;   
+        } header .wrap { 
+            width:1000px;
+            margin:0 auto;
+            height:100%;
+        } header form input {
+            width:370px;
+            height:30px;
+            border-radius: 3px;
+            border: 1px solid #d8dee0;
+            margin-top: 10px;
+            font-size:0.9em;
+            padding: 0 10px 0 10px;
+            float:left;
+            } header nav {
+                float:left;
+                width:600px;
+                height:50px;
+            
+        } header nav ul {
+            vertical-align: middle;
+            margin-top: 0px;
+            } header nav ul li {
+                display:inline-block;
+                padding:0px 15px 0px 15px;
+                text-transform: uppercase;
+                } header nav ul a {
+                    text-decoration: none;
+                    color: #FFF;
+                    padding:19px 5px 10px 5px;
+                    display:inline-block;
+                    font-size: 0.9em;
+                } header nav ul a:hover {
+                    color: #af4451;
+                    /*border-bottom: 3px solid #af4451; */
+} /* --- [END OF] HEADER SECTION ---- Navigation menu, Search field, User session name ---- */
+#wrapper { /* --- CONTENT WRAPPER --- */
+    width:1000px;
+    height:auto;
+    min-height: 500px;
+    margin:0px auto 0 auto;
+    padding-top:50px;
+    } #mainfield {
+    width:560px;
+    margin: 0 18px;
+    height:auto;
+    min-height: 1400px;
+    float:left;
+    padding-top:0px;
+    } #postfield {
+        width:560px;
+        float:left;
+        height:auto;
+        min-height:500px;
+        margin-top:0px;
+    } .post {
+        width:560px;
+        height:250px;
+        background: #fff;
+        margin:10px 0;
+        float:left;
+        border: 1px solid #f1ebde;
+    } .post:first-child {
+        margin-top:20px;
+    } #poststatus {
+        width:560px;
+        height:auto;
+        background: #ffffff;
+        border: 1px solid #f1ebde;
+        margin:0px;
+        float:left;
+        padding:10px 0 10px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        } #poststatus .nav {
+            width:100%;
+            font-size: 0.95em;
+            } #poststatus .nav ul {
+                padding:0;
+            
+            } #poststatus .nav ul li {
+                display:inline-block;
+                list-style: none;
+                width:100px;
+                height:30px;
+                text-align: center;
+                line-height: 30px;
+                margin-left:-0px;
+                margin-bottom:-1px;
+                border-right:1px solid #dcd9d3;
+                font-s
+                } #poststatus .nav ul li:last-child {
+                    border-right:none;
+                    width:120px;
+                } #poststatus .nav ul li:hover {
+                    background: #FFF;
+                    border-right:1px solid #dcd9d3;
+                } #poststatus .nav ul li:first-child {
+                    border-left:0px solid #f9f9f9;
+                } #poststatus .nav ul li:first-child:hover {
+                    background: #FFF;
+                    border-left:0px solid #dcd9d3;
+        } #poststatus form textarea {
+            outline:none;
+            width:540px;
+            height:50px;
+            border:1px solid #f1ebde;
+            border-right:none;
+            border-left:none;
+            font-size: 0.9em;
+            padding:10px;
+            resize:none;
+            background:#FFF;
+            float:left;
+            display:block;
+        } #poststatus form input[type=submit] {
+            float:right;
+            margin:10px 0 0 0;
+            width:100px;
+            height:30px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            background: #51bf87;
+            color:white;
+            margin-right:10px;
+            clear:both;
+            border-bottom:1px solid #41996c;
+        } #poststatus form label {
+            float:left;
+            font-size: 1.1em;
+            margin:15px 0 0 10px;
+        } #poststatus form select {
+            -webkit-appearance:none;
+            float:left;
+            margin:10px 0 0 10px;
+            width:100px;
+            text-align: center;
+            height:30px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            padding:5px;
+            outline:none;
+            background: #51bf87;
+            color:white;
+            border-bottom:1px solid #41996c;
+        } #poststatus form input[type=submit]:hover {
+            background: #66c796;
+            border-bottom: 1px solid #529f78;
+} /* --- [END OF] CONTENT WRAPPER --- */
+#sidebarLeft { /* --- LEFT SIDEBAR SECTION --- */
+    width:150px;
+    height:auto;
+    min-height: 300px !important;
+    float:left;
+    } .box {
+        width:150px;
+        height:auto;
+        min-height: 500px;
+        margin-top:0px;
+        border: 1px solid #f1ebde;
+        position:fixed;
+        background-color:#FFF;
+    } #sidebarLeft .topbox {
+        width:130px;
+        margin:5px;
+        padding:5px;
+        height:auto;
+        min-height: 30px;
+        background: #51bf87;
+        float:left;
+        border-radius: 5px;
+        border-bottom:2px solid #41996c;
+        } #sidebarLeft .widget {
+            width:150px;
+            height:auto;
+            min-height: 200px;
+            float:left;
+            border-radius: 5px;
+            margin-top:10px;
+        } #sidebarLeft .topbox p {
+            font-size: 1.1em;
+            float:left;
+            display:block;
+            color:white;
+            width:90px;
+            margin-top:5px;
+            text-align: center;
+        } #sidebarLeft .topbox img.profileImage {
+            border-radius: 3px;
+            margin-right:5px;
+            width:30px;
+            height:30px;
+            display:block;
+            float:left;
+            border:1px solid #CCC;   
+} /* --- [END OF] LEFT SIDEBAR SECTION --- */
+#sidebarRight { /* --- RIGHT SIDEBAR SECTION --- */
+    width:230px;
+    border: 1px solid #f1ebde;
+    background:#FFF;
+    height:auto;
+    min-height: 500px;
+    float:left;
+    border-radius:5px;
+    } .topfix {
+        width:100%;
+        height:200px;
+} /* --- [END OF] RIGHT SIDEBAR SECTION --- */
