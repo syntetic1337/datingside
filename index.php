@@ -63,15 +63,105 @@ and open the template in the editor.
                 </div>
                 <div id="postfield">
                     <div class="post">
-                        <div class="postHeader">
+                        <div class="header">
                             <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
                             <p class="username"><a href="#">Marcus Klausen</a></p><br />
                             <p class="underInfo">22 mins ago</p>
                         </div>
+                        <div class="content">
+                            <p>her er min status opdatering med tekst!</p>
+                        </div>
+                        <div class="actions">
+                            <p>
+                                <a href="#">Like</a> &middot;
+                                <a href="#">Dislike</a> &middot;
+                                <a href="#">Share</a>
+                            </p>
+
+                        </div>
+                        <div class="footer">
+                            <p>354 people likes this.</p>
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <form action="?post&comment&postID=var" method="post">
+                                <textarea class="comment"></textarea>
+                            </from>
+                        </div>
                     </div>
                     <div class="post">
+                        <div class="header">
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                            <p class="underInfo">22 mins ago</p>
+                        </div>
+                        <div class="content">
+                            <p>Savner fandme defqon!</p>
+                            <img src="images/posts/defqon.jpg">
+                        </div>
+                        <div class="actions">
+                            <p>
+                                <a href="#">Like</a> &middot;
+                                <a href="#">Dislike</a> &middot;
+                                <a href="#">Share</a>
+                            </p>
+
+                        </div>
+                        <div class="footer">
+                            <p>354 people likes this.</p>
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <form action="?post&comment&postID=var" method="post">
+                                <textarea class="comment"></textarea>
+                            </from>
+                        </div>
                     </div>
                     <div class="post">
+                        <div class="header">
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                            <p class="underInfo">22 mins ago</p>
+                        </div>
+                        <div class="content">
+                            <p>her er min status opdatering med tekst!</p>
+                        </div>
+                        <div class="actions">
+                            <p>
+                                <a href="#">Like</a> &middot;
+                                <a href="#">Dislike</a> &middot;
+                                <a href="#">Share</a>
+                            </p>
+
+                        </div>
+                        <div class="footer">
+                            <p>354 people likes this.</p>
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <form action="?post&comment&postID=var" method="post">
+                                <textarea class="comment"></textarea>
+                            </from>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="header">
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                            <p class="underInfo">22 mins ago</p>
+                        </div>
+                        <div class="content">
+                            <p>her er min status opdatering med tekst!</p>
+                        </div>
+                        <div class="actions">
+                            <p>
+                                <a href="#">Like</a> &middot;
+                                <a href="#">Dislike</a> &middot;
+                                <a href="#">Share</a>
+                            </p>
+
+                        </div>
+                        <div class="footer">
+                            <p>354 people likes this.</p>
+                            <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
+                            <form action="?post&comment&postID=var" method="post">
+                                <textarea class="comment"></textarea>
+                            </from>
+                        </div>
                     </div>
                 </div>
             </div>

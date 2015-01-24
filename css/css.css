@@ -9,7 +9,7 @@ and open the template in the editor.
 */
 
 html { 
-  background: #fbf8f1; 
+  background: #f7f4eb; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -104,14 +104,50 @@ html {
         min-height:500px;
         margin-top:0px;
     } .post {
-        width:540px;
+        width:560px;
         height:auto;
-        min-height:230px;
         background: #fff;
         margin:10px 0;
+        border-radius:3px;
         float:left;
         border: 1px solid #f1ebde;
-        padding:10px;
+        border-bottom: 1px solid #e3dcce;
+        } .post .header {
+            padding:10px 10px 0px 10px;
+            width:540px;
+            height:50px;
+            margin-bottom:10px;
+        } .post .content {
+            font-size:1.05em;
+            padding:0 10px;
+            margin-bottom:20px;
+        } .post .content img {
+            max-width: 540px;
+            margin-top: 10px;
+        } .post .actions {
+            font-size:0.8em;
+            margin:5px 0;
+            padding: 0 10px;
+        } .post .footer {
+            border-top:1px solid #efebe1;
+            width:540px;
+            padding:10px;
+            height:auto;
+            overflow:auto;
+            background:#fafafa;
+        } .post .footer p {
+            margin:0 0 10px 0;
+            font-size:0.9em;
+            color:#4b4840;
+        } .post .footer textarea.comment {
+            float:left;
+            width:465px;
+            height:20px;
+            padding:10px;
+            outline:none;
+            font-size:0.9em;
+            border: 1px solid #e3ded2;
+            resize:none;
         } .post p.username {
             font-size:1.05em;
             margin: 0 0 0 0px;
@@ -150,16 +186,15 @@ html {
                 line-height: 30px;
                 margin-left:-0px;
                 margin-bottom:-1px;
-                border-right:1px solid #dcd9d3;
-                font-s
+                border-right:1px solid #f1ebde;
                 } #poststatus .nav ul li:last-child {
                     border-right:none;
                     width:120px;
                 } #poststatus .nav ul li:hover {
                     background: #FFF;
-                    border-right:1px solid #dcd9d3;
+                    border-right:1px solid #f1ebde;
                 } #poststatus .nav ul li:first-child {
-                    border-left:0px solid #f9f9f9;
+                    border-left:0px solid #f1ebde;
                 } #poststatus .nav ul li:first-child:hover {
                     background: #FFF;
                     border-left:0px solid #dcd9d3;
@@ -273,7 +308,7 @@ html {
 
 img.profileThumb40 { /* --- ASSETS --- */
             
-            margin-right:5px;
+            margin-right:10px;
             width:40px;
             height:40px;
             display:block;
