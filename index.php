@@ -5,17 +5,17 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title></title>
-        <link rel="stylesheet" ref="text/css" href="css/css.css" />
-    </head>
-    <body>
-        <header>
-            <div class="wrap">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" ref="text/css" href="css/css.css" />
+</head>
+<body>
+    <header>
+        <div class="wrap">
             <form action="?search" method="post">
-                    <input type="text" placeholder="Search for something, someone or anything else...">
-                </form>
+                <input type="text" placeholder="Search for something, someone or anything else...">
+            </form>
             <nav>
                 <ul>
                     <li><a href="#">my page</a></li>
@@ -25,27 +25,27 @@ and open the template in the editor.
                     <li><a href="#">stream</a></li>     
                 </ul>
             </nav>
-            </div> 
-        </header>
-        <div id="wrapper">
-            <div id="sidebarLeft">
-                <div class="boxLeft">
+        </div> 
+    </header>
+    <div id="wrapper">
+        <div id="sidebarLeft">
+            <div class="boxLeft">
                 <div class="topbox">
                     <img class="profileThumb40" src="images/profile/75/marcus.jpg" width="40" height="40">
                     <p>Settings</p>
                 </div>
                 <div class="widgetLeft"></div>
             </div>
-            </div>
+        </div>
 
-            <div id="mainfield">
-                <div id="poststatus">
-                    <div class="nav">
-                        <ul>
-                            <li>
-                                Story</li><li>
-                                Media</li><li>
-                                Life Event</li>
+        <div id="mainfield">
+            <div id="poststatus">
+                <div class="nav">
+                    <ul>
+                        <li>
+                            Story</li><li>
+                            Media</li><li>
+                            Life Event</li>
                         </ul>
                         <form action="?post&type=" method="post">
                             <textarea></textarea>
@@ -167,20 +167,20 @@ and open the template in the editor.
             </div>
             <div id="sidebarRight">
                 <div class="boxRight">
-                <div class="widgetRight">
-                    <div class="header">
-                        <h2>People you might like</h2>
+                    <div class="widgetRight">
+                        <div class="header">
+                            <h2>People you might like</h2>
+                        </div>
+                        <img class="profileThumb40 left round" src="images/profile/75/marcus.jpg" width="40" height="40">
+                        <p class="username"><a href="#">Marcus Klausen</a></p><br />
+                        <p class="underInfo">22 mins ago</p>
                     </div>
-                    <img class="profileThumb40 left round" src="images/profile/75/marcus.jpg" width="40" height="40">
-                            <p class="username"><a href="#">Marcus Klausen</a></p><br />
-                            <p class="underInfo">22 mins ago</p>
                 </div>
-                </div>
-                
+
             </div>
-            
+
         </div>
     </body>
-</html>
+    </html>
 
 
