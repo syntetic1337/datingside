@@ -315,3 +315,6 @@ img.profileThumb40 { /* --- ASSETS --- */
             float:left;
             border:1px solid #CCC;   
 }
+.autosize {
+    transition:0.1s;
+}

@@ -48,7 +48,7 @@ and open the template in the editor.
                             Life Event</li>
                         </ul>
                         <form action="?post&type=" method="post">
-                            <textarea></textarea>
+                            <textarea class="autosize"></textarea>
                             <input type="submit" value="Post">
                             <label>What's your mood like?</label>
                             <select>
@@ -83,7 +83,7 @@ and open the template in the editor.
                             <p>354 people likes this.</p>
                             <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
                             <form action="?post&comment&postID=var" method="post">
-                                <textarea class="comment"></textarea>
+                                <textarea class="autosize comment"></textarea>
                             </from>
                         </div>
                     </div>
@@ -109,7 +109,7 @@ and open the template in the editor.
                             <p>354 people likes this.</p>
                             <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
                             <form action="?post&comment&postID=var" method="post">
-                                <textarea class="comment"></textarea>
+                                <textarea class="autosize comment"></textarea>
                             </from>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ and open the template in the editor.
                             <p>354 people likes this.</p>
                             <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
                             <form action="?post&comment&postID=var" method="post">
-                                <textarea class="comment"></textarea>
+                                <textarea class="autosize comment"></textarea>
                             </from>
                         </div>
                     </div>
@@ -159,7 +159,7 @@ and open the template in the editor.
                             <p>354 people likes this.</p>
                             <img class="profileThumb40 left" src="images/profile/75/marcus.jpg" width="40" height="40">
                             <form action="?post&comment&postID=var" method="post">
-                                <textarea class="comment"></textarea>
+                                <textarea class="autosize comment"></textarea>
                             </from>
                         </div>
                     </div>
@@ -180,6 +180,16 @@ and open the template in the editor.
             </div>
 
         </div>
+        
+
+        <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="js/jquery.autosize.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $('.autosize').autosize();    
+        });
+        </script>
     </body>
     </html>
 
